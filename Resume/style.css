@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'nunito', sans-serif;
+}
+
+.principal-box {
+     height: 100vh;
+     width: 100%;
+     background-color: rgb(27, 27, 27);
+     background-image: url(./img/Design\ sem\ nome\ \(5\).png);
+     background-repeat: no-repeat;
+     background-size: auto;
+     background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    background-color: black;
+}
+
+.portfolio {
+   color: #ffff;
+   font-size: 40px;
+   font-weight: 700;
+   margin: 100;
+}
+
+.portfolio span {
+    color:blueviolet;
+    font-size: 40px;
+    font-weight: 700;
+    position: center;
+}
+
+li {
+    color:azure;
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+li:hover {
+    color:rgb(147, 106, 187);
+    transition: 0.4s;
+}
+
+.meu-nome{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+h1 {
+    color:azure;
+    font-size:70px;
+}
+
+h1 span{
+    color:blueviolet;
+    font-size: 70px;
+}
+
+.meu-nome h3{
+    font-size: 60px;
+    color: azure;
+}
