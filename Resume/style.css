@@ -106,3 +106,26 @@ section div button{
     border: none;
     border-radius: 26px;
 }
+
+section div button:hover{
+    background-color: #0000;
+    border: 3px solid blueviolet;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.projetos {
+    background-color: #141414;
+}
+
+.projetos h2{
+    color:azure;
+    font-size: 75px;
+}
+
+.card {
+    background-color: black;
+}
+
+.card img{
+}
